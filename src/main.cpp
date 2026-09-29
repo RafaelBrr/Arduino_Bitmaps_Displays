@@ -61,6 +61,48 @@ void loop() {
     u8g.drawBitmapP(5, 20, 15, 33, bitmap_National_Instruments_logo_120x33);
   } while (u8g.nextPage());
   delay(2000);
+
+  u8g.firstPage();
+  do{
+    u8g.drawBitmapP(10, 0, 15, 40, bitmap_Texas_Instruments_logo_120x40);
+  } while (u8g.nextPage());
+  delay(2000);
+
+  u8g.firstPage();
+  do{
+    u8g.drawBitmapP(1, 20, 16, 31, bitmap_Windows_logo_128x31);
+  } while (u8g.nextPage());
+  delay(2000);
+
+  u8g.firstPage();
+  do{
+    u8g.drawBitmapP(10, 1, 13, 64, microchip_101x64);
+  } while (u8g.nextPage());
+  delay(2000);
+
+  u8g.firstPage();
+  do{
+    u8g.drawBitmapP(35, 5, 8, 58, raspberry_58x58);
+  } while (u8g.nextPage());
+  delay(2000);
+
+  u8g.firstPage();
+  do{
+    u8g.drawBitmapP(1, 20, 16, 40, raspberry_124x40);
+  } while (u8g.nextPage());
+  delay(2000);
+
+  u8g.firstPage();
+  do{
+    u8g.drawBitmapP(1, 20, 16, 31, bitmap_Windows_logo_128x31);
+  } while (u8g.nextPage());
+  delay(2000);
+
+    u8g.firstPage();
+  do{
+    u8g.drawBitmapP(25, 5, 8, 62, pixels_62x62);
+  } while (u8g.nextPage());
+  delay(2000);
  
 }
 
