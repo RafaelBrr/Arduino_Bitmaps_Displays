@@ -103,6 +103,24 @@ void loop() {
     u8g.drawBitmapP(25, 5, 8, 62, pixels_62x62);
   } while (u8g.nextPage());
   delay(2000);
+
+    u8g.firstPage();
+  do{
+    u8g.drawBitmapP(25, 5, 16, 64, ATMEL_128x64);
+  } while (u8g.nextPage());
+  delay(2000);
+
+    u8g.firstPage();
+  do{
+    u8g.drawBitmapP(25, 5, 13, 64, ST_103x64);
+  } while (u8g.nextPage());
+  delay(2000);
+
+    u8g.firstPage();
+  do{
+    u8g.drawBitmapP(25, 5, 12, 64, Arduino_94x64);
+  } while (u8g.nextPage());
+  delay(2000);
  
 }
 
